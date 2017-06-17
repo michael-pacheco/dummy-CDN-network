@@ -1,0 +1,14 @@
+website.py is the main web server; "hiscinema.com".
+local_DNS_server.py is our local DNS server that resolves IP.
+database_server.py is the file that mimics the video provider, finding the video that the user requested and serving it to them.
+config.py contains the UDP ports used for the DNS resolving of IPs.
+
+/database
+This folder contains all videos that the webserver has available.
+
+/static
+This folder contains a variety of things - mainly website CSS (bootstrap, fonts, javascript, etc), as well as static files used to serve to the client.
+It also contains the folder "clientdownloads", which is the folder that contains the videos that the client downloaded to watch.
+
+/templates
+Contains the .html files for the website.
